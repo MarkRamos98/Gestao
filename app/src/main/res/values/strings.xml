@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">MyApp</string>
     <string name="logo">Logo</string>
+    <string name="email">email</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="recuperar_senha">Recuperar Senha</string>
 </resources>
