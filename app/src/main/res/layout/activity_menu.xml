@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10sp"
-        android:text="Menu"
+        android:text="@string/menu"
         android:textAllCaps="true"
         android:textColor="#000000"
         android:textSize="50sp"
@@ -49,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="@string/produtos"
-                    android:textSize="30dp" />
+                    android:textSize="30sp" />
 
 
             </LinearLayout>
@@ -78,7 +78,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="@string/categoria"
-                    android:textSize="30dp" />
+                    android:textSize="30sp" />
 
 
             </LinearLayout>
@@ -116,7 +116,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="@string/fornecedores"
-                    android:textSize="30dp" />
+                    android:textSize="30sp" />
 
 
             </LinearLayout>
@@ -145,7 +145,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="@string/usuarios"
-                    android:textSize="30dp" />
+                    android:textSize="30sp" />
 
 
             </LinearLayout>
