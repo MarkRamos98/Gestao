@@ -14,4 +14,8 @@
     <string name="entrada">Entrada</string>
     <string name="saida">Saida</string>
     <string name="menu">Menu</string>
+    <string name="confirmarsenha">Confirmar senha</string>
+    <string name="confirmar_nova_senha">Confirmar nova senha</string>
+    <string name="nova_senha">Nova senha</string>
+    <string name="salvar_senha">Salvar senha</string>
 </resources>
