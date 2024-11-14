@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             app:navigationIcon="@drawable/baseline_keyboard_arrow_left"
             android:id="@+id/Idcadretorno"
-            app:title="Cadastrar"
+            app:title="Esqueci minha senha"
             app:titleCentered="true"/>
 
     </com.google.android.material.appbar.AppBarLayout>
