@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Rebimbóca</string>
+    <string name="app_name">Rebimbóca da Parafuseta</string>
     <string name="logo">Logo</string>
     <string name="email">email</string>
     <string name="senha">Senha</string>
@@ -18,4 +18,8 @@
     <string name="confirmar_nova_senha">Confirmar nova senha</string>
     <string name="nova_senha">Nova senha</string>
     <string name="salvar_senha">Salvar senha</string>
+    <string name="porca">Porca</string>
+    <string name="porca_t">Porca T</string>
+    <string name="uma_porca">É uma porca</string>
+    <string name="r_1_268_00">R$1.268,00</string>
 </resources>
