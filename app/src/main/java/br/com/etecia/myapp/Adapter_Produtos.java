@@ -4,6 +4,8 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -43,8 +45,29 @@ public class Adapter_Produtos extends RecyclerView.Adapter<Adapter_Produtos.View
 
     public class ViewHolder extends RecyclerView.ViewHolder{
 
+        ImageView ImageMod;
+
+        TextView NomeMod;
+
+        TextView Class;
+
+        TextView Descricao;
+
+        TextView Preco;
+
+        TextView Frete;
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+
+            ImageMod = itemView.findViewById(R.id.ImageMod);
+            NomeMod = itemView.findViewById(R.id.NomeMod);
+            Class = itemView.findViewById(R.id.Class);
+            Descricao = itemView.findViewById(R.id.Descricao);
+            Preco = itemView.findViewById(R.id.Preço);
+            Frete = itemView.findViewById(R.id.Frete);
+
         }
     }
+
 }
