@@ -16,6 +16,7 @@ public class Produtos {
         this.desc = desc;
         this.val = val;
         this.frete = frete;
+
     }
 
     public String getNome() {

@@ -29,21 +29,28 @@ public class Adapter_Produtos extends RecyclerView.Adapter<Adapter_Produtos.View
         View view;
 
         LayoutInflater inflater = LayoutInflater.from(context);
-        view = inflater.inflate(R.layout.modelo_produtos,parent,false);
+        view = inflater.inflate(R.layout.modelo_produtos, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
+        holder.Descricao.setText(lsprodutos.get(position).getDesc());
+        holder.Class.setText(lsprodutos.get(position).getClas());
+        holder.NomeMod.setText(lsprodutos.get(position).getNome());
+        holder.ImageMod.setImageResource(lsprodutos.get(position).getImage());
+        holder.Preco.setText(lsprodutos.get(position).getVal());
+        holder.Frete.setText(lsprodutos.get(position).getFrete());
+
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return lsprodutos.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder {
 
         ImageView ImageMod;
 
